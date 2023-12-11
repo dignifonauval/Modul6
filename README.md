@@ -5,25 +5,25 @@ Python Website Modul 6
 #Klasifikasi permainan Batu Gunting Kertas
 Proyek Klasifikasi Gambar tangan menyerupai Batu, Gunting, Kertas menggunakan Flask dan Model Machine Learning.
 
-#Pendahuluan
+# Pendahuluan
 Proyek ini bertujuan untuk membangun aplikasi web sederhana menggunakan Flask yang dapat melakukan klasifikasi gambar untuk mengidentifikasi apakah gambar tersebut menunjukkan tangan membentuk batu, gunting, atau kertas. Model machine learning telah dilatih sebelumnya menggunakan dataset gambar tangan yang mencakup ketiga kelas tersebut.
 
-#Fitur Utama
+# Fitur Utama
 Upload Gambar: Pengguna dapat mengunggah gambar tangan ke aplikasi untuk diprediksi oleh model.
 Pilih Gambar: Terdapat 25 gambar acak yang dapat dipilih oleh pengguna untuk melihat hasil prediksi.
 Hasil Prediksi: Aplikasi menampilkan hasil prediksi, akurasi, lama waktu prediksi, input gambar yang diprediksi, dan label gambar yang diprediksi.
 Struktur Direktori yang Jelas: Proyek memiliki struktur direktori yang terorganisir dengan baik untuk memudahkan pengembangan dan pemeliharaan.
 
-#Instalasi
+# Instalasi
 Pastikan Anda memiliki Python terinstal di sistem Anda.
 
 Buat dan aktifkan lingkungan virtual:
 
-#bash
+# bash
 .\env\Scripts\activate  # Untuk Windows
 Instal paket-paket yang diperlukan:
 
-#bash
+# bash
 Copy code
 pip install -r requirements.txt
 Penggunaan
@@ -38,7 +38,7 @@ Unggah gambar atau pilih gambar dari daftar yang disediakan.
 
 Lihat hasil prediksi yang mencakup label klasifikasi, akurasi, dan waktu prediksi.
 
-#Struktur Direktori
+# Struktur Direktori
 bash
 Copy code
 /your_project
